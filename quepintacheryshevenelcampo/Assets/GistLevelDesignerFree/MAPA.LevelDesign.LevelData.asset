@@ -1,0 +1,244 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 670ad16e6abf4aa4b9b9c6bb5ea81170, type: 3}
+  m_Name: MAPA.LevelDesign.LevelData
+  m_EditorClassIdentifier: 
+  levelData:
+    prefabGUID: 2b7e597b4f710c5418119577551625c4
+    mainSet: {fileID: 11400000, guid: 5c68f49ae842d3c44841737380909fb8, type: 2}
+    objectsSet: {fileID: 11400000, guid: 338340c5f485df24cb45c8831b969b62, type: 2}
+    optionsSettings:
+      moveSnap: 1
+      rotationSnap: 22.5
+      wallsManipulatorsHeight: 1
+    visibilitySettings:
+      movement: 1
+      rotation: 1
+      walls: 1
+      wallsMovement: 1
+      wallsRotation: 1
+      wings: 1
+      wingsGrowth: 1
+      wingsLines: 1
+      objects: 1
+      floors: 1
+      hidden: 0
+    wallsData:
+    - simpleObjectData:
+        fileID: 5732958991673435372
+      type: 1
+      wingsData:
+      - growDirection: {x: 1, y: 0, z: 0}
+        chainFileIDs: 41479ed9734a2578e898699cae53270fe10a7f4dae4f2b6cc506a6b459546d7b4095c76bc237f209b4e7d4acc1b7556a4d82b91f18f1655dfb5065f1956d57164379d51e09387362a6baeba5bbd86108a5fe35ecbbc6c5276ee72790c84008759815e8995e40212f6be32d92a31f9f4fd650574d2a85120b
+        capFileID: -1
+      - growDirection: {x: 0, y: 0, z: -1}
+        chainFileIDs: 86a53e098d0c6079b9f3a1fc4356c438d6b9a8f31c2e8a057d500dd6bd9e2b41ee5305a73b2bdd12eb0e033e4cb20d3880a207bbd16d745fcac177864b5ce505d42e0c8847b93c722feead0cea51d97c471a573c00b3bf0a5c090d589a7dbf3077df48ce3c7c061b23a8878f4e4fb473266f8f196341205f5fd9b76abc5a5c74
+        capFileID: -1
+    - simpleObjectData:
+        fileID: 8721085573854051568
+      type: 1
+      wingsData:
+      - growDirection: {x: 1, y: 0, z: 0}
+        chainFileIDs: d84cc2f727a3111d1c06241d5a2b9d6c16f62e2a9669bc2515003cf55c57a6215ec493342aea0301e5c4bc84bbea5b17602177d432e80645f364f3d2f104dc5c8c49e50e1dba92215fd51f3b6a86da64ca38fcad621d0a687b65e9324e607c795193f3bcf9eb65131a7a82a99b255549cd1f70f4e258522e9be72596149dcd149e4959b38f6e384ff225f66c3642fb1ce850ed8067132611e61733fa09f78e6237eefcd81587e53d32458d2289628e1cdb56d34fe5812b539d13e8c188b830668fbae9796a80e062b4a27ef25b9df16273e7776669b0844501555701e7db3a6d21fd1ee5448b6b7d93ba01c798fe7437dd36878ac2e54738
+        capFileID: -1
+      - growDirection: {x: 0, y: 0, z: -1}
+        chainFileIDs: 
+        capFileID: -1
+    - simpleObjectData:
+        fileID: 2171945614691065180
+      type: 1
+      wingsData:
+      - growDirection: {x: 1, y: 0, z: 0}
+        chainFileIDs: ed017ab61a56b94af725f130c533721cfe4658065f82a33be6036de2c19fe20079f563d1a4fa204e7bdda09f294ab04e76ee29c8dbcfc75da6bae54d723adf0f39fcd179fc33e425020ec8bff17b7004bf52c21dfe9fec3054481e352f23b1114833b23e4c1c026a9697aa31c0e9d92dcebf8434b923eb40
+        capFileID: -1
+      - growDirection: {x: 0, y: 0, z: -1}
+        chainFileIDs: 
+        capFileID: -1
+    - simpleObjectData:
+        fileID: 7710364665837719154
+      type: 1
+      wingsData:
+      - growDirection: {x: 1, y: 0, z: 0}
+        chainFileIDs: 464b5aa4afa5c556cceea96f0fc18b74e15fff3261f8611f50c11a68224d0d1361265360e8b073732ca1d3773e3d9512a806e330e4859212de4ba7316d9f7f00a623d1cf817bc73cc6fde868ec67f23872bacd7903b6af64fe4eb12d8a517059
+        capFileID: -1
+      - growDirection: {x: 0, y: 0, z: -1}
+        chainFileIDs: 
+        capFileID: -1
+    - simpleObjectData:
+        fileID: 469258484734955748
+      type: 1
+      wingsData:
+      - growDirection: {x: 1, y: 0, z: 0}
+        chainFileIDs: 
+        capFileID: -1
+      - growDirection: {x: 0, y: 0, z: -1}
+        chainFileIDs: 886ee5176e5a3823a40cbed415b97e73d3e3750d0871532ef3ab88aaacf4b538e69c6adbcb20cb6dde186ce3165eb26a3f1cbc0c7e3c18246bbb68501db58c2f54f9bd661049860acd98bc58bb6a957f9f37cd91811e854905b5d30283d79869
+        capFileID: 7233569070341756405
+    - simpleObjectData:
+        fileID: 8319108300426963680
+      type: 1
+      wingsData:
+      - growDirection: {x: 1, y: 0, z: 0}
+        chainFileIDs: d48e8dd10f9c493ce580360ee8356c7bd8fcc99bbd908378864b4f6429da3a0e11e56be83afeea2335bac9e7a05fa146dd76173cf947f1763a2450ec97b8085704ef67d1f6a57919e3c9dd4adfee272e32e2e2b2d1155e157d580805cae68a0b
+        capFileID: 5082735089173434499
+      - growDirection: {x: 0, y: 0, z: -1}
+        chainFileIDs: 
+        capFileID: -1
+    simpleObjectsData:
+    - fileID: 6166799420497367631
+    - fileID: 8325707541116864992
+    - fileID: 4331824414627988567
+    floorsData:
+    - simpleObjectData:
+        fileID: 1753612772557999500
+      prefabGUID: c5a6408687f4a6642b89fd6ea8b7b302
+      size: 2
+      tilesFileIDsWidth: 1
+      startingRow: 0
+      startingCol: 0
+      tilesFileIDs: 4ea1148a2983052d
+    - simpleObjectData:
+        fileID: 5236835964512317444
+      prefabGUID: c5a6408687f4a6642b89fd6ea8b7b302
+      size: 2
+      tilesFileIDsWidth: 5
+      startingRow: 2
+      startingCol: 2
+      tilesFileIDs: c6bb7d91985f31192157153f45fe417c42773c950278ef0a00553abf233dbc69e2384a894d90de639b28135d545bb773d2d599a318b9a3409c4b640b1b21290413678c6069abb30ffdf0afb52026da003c854c83fee4f763c188be74f231e37d64418de16bbe5a54f6b595be968d3d40cdd8ee05697887124a68a5bf3a96526717260c75f70132043c4b36dd0dccad2c3c9d76a3ef614767d5fd27bf3b75434cfe72f5b5942e134e025aa2a02570be3c7690e545072e094e1184cfa39c4ae23f2f78e07cb96a8b09
+    - simpleObjectData:
+        fileID: 4688772910348777832
+      prefabGUID: 4cf599942c7e83e4bbc35b67a488e70a
+      size: 2
+      tilesFileIDsWidth: 2
+      startingRow: 0
+      startingCol: 0
+      tilesFileIDs: 985b2f285f4ffd19f824b3a7b066b91c70bfd73c30f54753cc31f3b034fcb82b270597be47848d58aaf1a41d39b28d79de33c8a671f4ee3ab1bf34ac9b7cd25b07e7716712c90d70371bf9f6dbdffd724596a9461aefca2862d62413c7d0454d5fcf05907506466a05da1149b5b6c666
+    - simpleObjectData:
+        fileID: 4439686657140436827
+      prefabGUID: c5a6408687f4a6642b89fd6ea8b7b302
+      size: 2
+      tilesFileIDsWidth: 1
+      startingRow: 1
+      startingCol: 0
+      tilesFileIDs: 604a4afe18777f1c938abc42f67e26302a72d10aca241b3a7b85d27fb6f4a62c4f8ca3624c9c6a227531c1fa8794cf10929c302ac9ba492858a91e2badbc0134
+    - simpleObjectData:
+        fileID: 4128153811599667053
+      prefabGUID: 4cf599942c7e83e4bbc35b67a488e70a
+      size: 2
+      tilesFileIDsWidth: 5
+      startingRow: 0
+      startingCol: 4
+      tilesFileIDs: 1fabc2c3c36996021832782ece67623d9501844bfb5f7b6b222a2c7c7ef9f90d35ca9972eb983b580efec00019a71c37b8f8751547a3a539c61c8918de976060849bc745c4466d31e0bd5e80a116c07d0b266058007d3f3d930285eb6b9b913766965a7d0f36aa2573415225ef82210bd585570764bb30086577a432d54c80069c1221fa9b11387364dedaf6d00af6155879b538df52c47240431e3024c4c9766955b912e8f1a378952907bdd4ae464dbe6571145abe220ed79befb7ff9812332dc8bfb9181f6e31
+    - simpleObjectData:
+        fileID: 9145509107217459269
+      prefabGUID: 2a4ce19af6db7aa4db129244dda70e5c
+      size: 4
+      tilesFileIDsWidth: 5
+      startingRow: 0
+      startingCol: 4
+      tilesFileIDs: cfd50514877ef02fb06fcda6b2496835b345fd5538bb0c644c5b7205aae959275d67e496422554486971d92289803e6b373993b85e9c9806baaafec2c977df2f01664e2d7a0faf08d9fa9442f3969271
+    - simpleObjectData:
+        fileID: 2178878585845527908
+      prefabGUID: c5a6408687f4a6642b89fd6ea8b7b302
+      size: 2
+      tilesFileIDsWidth: 2
+      startingRow: 3
+      startingCol: 1
+      tilesFileIDs: 684d04f9a8ff485b44b00de0c78946257f3c41d4fe7e2745226ac78582bf953b0e8202a220b9d26544be04fc4db8742886608db0fe5d9671a083096e4caa137768e99c47ce415c6d0c292aee08a01c294fe05ef0f6c24d4ceefb0d326c97b411
+    - simpleObjectData:
+        fileID: 8542431215866200478
+      prefabGUID: 4cf599942c7e83e4bbc35b67a488e70a
+      size: 2
+      tilesFileIDsWidth: 9
+      startingRow: 0
+      startingCol: 1
+      tilesFileIDs: 3f413210b7deb51b4811f4959a2d453dce50497addbbad4f9c382009cb53cc0a8aad4efdf80cb146c901fc9b565f45204830dc5a600c4612ff72f227c7cc042fac160d63a060cf640006418efabd19083f1a8886bd1b2237704d8ba46d790751df6b1da260ce106f8f634b6229355218f174651446be181e3ddf95817f757b0d01d0b2615701e27dfd0ec8c687611e02
+    - simpleObjectData:
+        fileID: 5513494526609964597
+      prefabGUID: 2a4ce19af6db7aa4db129244dda70e5c
+      size: 4
+      tilesFileIDsWidth: 8
+      startingRow: 0
+      startingCol: 4
+      tilesFileIDs: 869a5eb2c3bcf85fe62294c3f5ec7061970094d4fe684b19430282e01a59b4442aef93500e014b0f25e9d04da6045e3dcca188e855715757446cbb5987a0e849b38f6649a4174a5986d6c9ec37233a6dca3bbf5c39093358c69bd7b458e338566481353c715a815a2b7cb3b7e09084410666854b6bedfa648de881ca2f7016778b7c91fd751db52f4ce155a7fee38d5e184293c177ff8a331a47fe15b007356a2643647efc947423e96601c0caa07e416a93846bf323e53e7e75ad1e77c95253ac1b6c2822f0bc613c39744875313b1fe7dd27924b6d202a0723301ad5808e5c74b3235524edd55822057d9bf3bf65447cd06496316bfd2c2f3ac26cc4551b34
+    - simpleObjectData:
+        fileID: 2586365658268449541
+      prefabGUID: 4cf599942c7e83e4bbc35b67a488e70a
+      size: 2
+      tilesFileIDsWidth: 2
+      startingRow: 9
+      startingCol: 1
+      tilesFileIDs: 29bf62e062698b203449cef78ba5552f746efaa0529d7c752acf9abdc4ee9464f20bac06822eaa285357cd0005268049b8fd65b285b131225f212e0b783e0a12b2b929ee106c9a7b039df58682ba81216819cdce3e05e20894655fef1889356f6b998261f1a08776b49ebfcfed8804092ad0b3ba3926332d567fa7ce51cb2e1214e13f5bbebfc760e46642fc0089e7188098257b1f300146f614c4a81f192b4f
+    - simpleObjectData:
+        fileID: 5214326460403214634
+      prefabGUID: c5a6408687f4a6642b89fd6ea8b7b302
+      size: 2
+      tilesFileIDsWidth: 6
+      startingRow: 0
+      startingCol: 0
+      tilesFileIDs: 3a5068da1293df1866fcf95f9aa3e57fcf187592482660164f9b0ae1a815e46db0ab987d8026755bd758a7343e2da61d
+    - simpleObjectData:
+        fileID: 3046966292807256377
+      prefabGUID: 4cf599942c7e83e4bbc35b67a488e70a
+      size: 2
+      tilesFileIDsWidth: 2
+      startingRow: 9
+      startingCol: 1
+      tilesFileIDs: ef2f9580f62ddb5fbfb56b83c6c886303fc5982a3bef8b5a99d83ad6fbbc5e49c267fd28e63be4440af3c333da3971664c74776463cfe1027a5464448a799461ed16e7ed0417bb16e3d9ba403b0f8521dff9498775a21c34b131734b543a667147b6f4a591f0d863a6bff29c7c5a9078d855e45778595a24e1c1a999d071ad3a3b282ca14951c543a12d6a416a6a6d0a59f7564f5c6c9234a56796e25ef0073f
+    - simpleObjectData:
+        fileID: 4398210550594152026
+      prefabGUID: 4cf599942c7e83e4bbc35b67a488e70a
+      size: 2
+      tilesFileIDsWidth: 2
+      startingRow: 9
+      startingCol: 1
+      tilesFileIDs: 7e3f5e01a2460f0ba59653e33635fe32db5e8d5346978f6e50fcbe15ee59c60df2ce6848076be61887598c4948e8cd3dd47d10e0be19cb0eb0a620425caf307ca6c5381b7928262b97a5a2986c22b539a8b3131e4ff55b112e738f6972ebee598af6d3a3ed21c46d7647cad16db96b16097e8936b95e1b1c9967faa75f9ee5157d462bc348f6cd4b69bb56343ac99c4979319c2f1c7af73d4e925cdfa1cf527e
+    - simpleObjectData:
+        fileID: 1554723350598730413
+      prefabGUID: 4cf599942c7e83e4bbc35b67a488e70a
+      size: 2
+      tilesFileIDsWidth: 2
+      startingRow: 0
+      startingCol: 1
+      tilesFileIDs: 51e99a9538710464913147b7e3280d185b41615595ab3768cd6abc6fda5d3d1e
+    - simpleObjectData:
+        fileID: 2750615675470448249
+      prefabGUID: 4cf599942c7e83e4bbc35b67a488e70a
+      size: 2
+      tilesFileIDsWidth: 7
+      startingRow: 0
+      startingCol: 6
+      tilesFileIDs: b7a57dc55fa05823c46578e7f609b5340447db0f5d65546b9579f27307925f4bb2f146600e6c44375b9ae7b774cd4339df93eb387e83a2182348ec42f3d48d558fb5adb3dd68c628f787b497e1ef2a045df6f5edf8bf390035444e324173e5328613c5825fd1d3739f3909e4402d3517
+    - simpleObjectData:
+        fileID: 1514775034694548285
+      prefabGUID: 2a4ce19af6db7aa4db129244dda70e5c
+      size: 4
+      tilesFileIDsWidth: 4
+      startingRow: 0
+      startingCol: 3
+      tilesFileIDs: 0585d7ce30993a7446cbbe2d0004e3121289b052baff967e9f44e544ca3e25719ba2ebfc035b1c1eb1137eab2bef654d6b0d74fe0490785070549101c0225f74fc8596f78e3ef924aec4eebb6b60f71420c999a27f19a83852cbac99443ce56cf6f737b6568981678c04fa6a0b81215ef927fe091d74763c7cd4d6714fc13950155cd002ff40125d1223277a2294612b73fbd486e29e6370f09d239ebdec493b791c671440d134685ea1bc4bec2d9c00438ea85d5c0d1d49782ecec8455c3f12
+    - simpleObjectData:
+        fileID: 1354135949465756584
+      prefabGUID: c5a6408687f4a6642b89fd6ea8b7b302
+      size: 2
+      tilesFileIDsWidth: 1
+      startingRow: 3
+      startingCol: 0
+      tilesFileIDs: 78ef7213ec857810601a2f50317b2734b66c943c4948427f0236a4597c49671f
+    - simpleObjectData:
+        fileID: 781773826654016429
+      prefabGUID: 4cf599942c7e83e4bbc35b67a488e70a
+      size: 2
+      tilesFileIDsWidth: 2
+      startingRow: 0
+      startingCol: 1
+      tilesFileIDs: 2e28013b503fd3551705227c83f81301
